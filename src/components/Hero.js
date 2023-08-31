@@ -1,14 +1,13 @@
 import React from 'react'
-import lottie from 'lottie-web';
-import { defineElement } from 'lord-icon-element';
-import sponge from '../images/sponge.gif'
+
+//import sponge from '../images/sponge.gif'
 
 function Hero() {
   return (
     
-        <section class="bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply pt-8">
+        <section class="w-screen bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply pt-8">
            
-    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40">
+    <div class="px-4 mx-auto /* max-w-screen-xl */ w-screen text-center py-24 lg:py-40">
     <marquee behavior="scroll" direction="left "className="flex"><h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-orangetheme md:text-5xl lg:text-6xl">Welcome to StainMasters Limited</h1></marquee>
         <p class="mb-8 text-2xl font-bold text-gray-300 lg:text-xl sm:px-16 lg:px-48">We love to serve you with compassionate care.</p>
         {/* <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
