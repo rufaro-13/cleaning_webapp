@@ -108,7 +108,8 @@ function Services() {
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
                                 </Link></center>
-                        v>
+                        </p>
+                      </div>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={restaurant} alt="" />
