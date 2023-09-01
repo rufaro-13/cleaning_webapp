@@ -18,9 +18,7 @@ function Services() {
         <div class="px-4 mx-auto max-w-screen-xl text-center pt-6 flex sm:items-center sm:justify-center ">
                     <h4 class="mb-4 text-center text-1xl font-extrabold tracking-tight leading-none text-black md:text-3xl lg:text-3xl">
                         Why you should choose us
-                    </h4>
-
-                    
+                    </h4>  
                 </div> 
         </div>
 
@@ -86,11 +84,7 @@ function Services() {
                                 </Link></center>
                         </p>
                       </div>
-       
-
         </div>
-
-
         <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
@@ -154,9 +148,7 @@ function Services() {
                                 </Link></center>
                         </p>
                       </div>
-
         </div>
-
         <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
@@ -218,7 +210,6 @@ function Services() {
                                 </Link></center>
                         </p>
                       </div>
-
         </div>
 
       </section>
