@@ -1,6 +1,6 @@
 'use client';
 import { Link } from "react-router-dom";
-//import { Button, Navbar } from 'flowbite-react';
+
 
 export default function NavigBar() {
   return (
