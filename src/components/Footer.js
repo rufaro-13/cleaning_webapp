@@ -2,6 +2,7 @@ import React from 'react'
 import excellent from '../images/excellence.png'
 import equal from '../images/no-equal-to.png'
 import amazing from '../images/suprise.png'
+import logo from '../images/StainMasters_png.png'
 function Footer() {
   return (
     <div>
@@ -71,12 +72,12 @@ function Footer() {
 
         </section>
         
-<footer className="bg-navcolour dark:bg-gray-900">
+<footer className="bg-blue-300 dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
-                  <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" />
+                  <img src={logo} class="h-8 mr-3" alt="FlowBite Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap text-orangetheme dark:text-white">StainMasters</span>
               </a>
           </div>
@@ -134,7 +135,7 @@ function Footer() {
                   <span class="sr-only">Whatsapp account</span>
               </a>
               <a href="https://flowbite.com/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                  <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"  viewBox="0 0 512 512">
+                  <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"  viewBox="0 0 512 512">
                     
                     <path fill-rule="evenodd" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" clip-rule="evenodd"/>
                 </svg>

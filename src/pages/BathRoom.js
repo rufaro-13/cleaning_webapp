@@ -10,9 +10,9 @@ import floor from '../images/sleek-minimalistic-bathroom-with-white-toilet-batht
 function BathRoom() {
   return (
     <div>
-        <section class="w-full bg-center bg-no-repeat bg-bathroom bg-gray-400 bg-blend-multiply pt-12">
+        <section class="bg-cover bg-center bg-no-repeat bg-bathroom bg-gray-400 bg-blend-multiply pt-12">
             
-            <div class="px-4 mx-auto /* max-w-screen-xl */ w-screen text-center py-24 lg:py-40">
+            <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">
             
                 <h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-navcolour md:text-5xl lg:text-6xl">Bathroom Cleaning</h1>
                 <p class="mb-8 text-2xl font-bold text-gray-300 lg:text-xl sm:px-16 lg:px-48"></p>

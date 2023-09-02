@@ -13,7 +13,7 @@ export default function NavbarWithCTAButton() {
       <Navbar.Brand href="https://flowbite-react.com">
         <img
           alt="Flowbite React Logo"
-          className="mr-3 h-6 sm:h-16"
+          className="mr-3 h-10 sm:h-16"
           src={logo}
         />
         <span className="self-center whitespace-nowrap text-navcolour text-xl font-semibold dark:text-white">
