@@ -13,7 +13,7 @@ module.exports = {
 
       backgroundImage: {
         'hero_pattern': "url('/src/images/full-shot-people-cleaning-office.jpg')",
-        'team_work':"url('/src/images/team_4540467 (1).png')",
+        'bathroom':"url('/src/images/mature-woman-cleans-tile-bathroom.jpg')",
         
       },
 

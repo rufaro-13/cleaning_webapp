@@ -6,7 +6,7 @@ import React from 'react'
 function Hero() {
   return (
     
-        <section class="w-screen bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply pt-8">
+        <section class="w-full bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply pt-8">
            
     <div class="px-4 mx-auto /* max-w-screen-xl */ w-screen text-center py-24 lg:py-40">
     

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
 
-        <section>
+        <section className='lg:pt-8'>
 
             <div className='bg-gray-200'>
                 <div className="sm:item-center bg-gray-200 sm:justify-center text-center ">
