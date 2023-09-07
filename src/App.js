@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Services from './pages/Services';
 import Bathroom from './pages/BathRoom'
+import Kitchen from './pages/Kitchen'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route  path='/contact' element= {<Contact/>}></Route>
         <Route  path='/services' element={<Services/>}></Route>
         <Route  path='/bathroom' element={<Bathroom/>}></Route>
+        <Route  path='/kitchen' element={<Kitchen/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

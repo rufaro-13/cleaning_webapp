@@ -77,7 +77,7 @@ function Services() {
                             We clean the cupboards, pantry, cooker, surfaces, fridge and many more. 
                             </p>
 
-                            <center><Link to="services" 
+                            <center><Link to="/kitchen" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
