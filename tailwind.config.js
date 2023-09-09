@@ -15,6 +15,7 @@ module.exports = {
         'hero_pattern': "url('/src/images/full-shot-people-cleaning-office.jpg')",
         'bathroom':"url('/src/images/mature-woman-cleans-tile-bathroom.jpg')",
         'kitchen':"url('/src/images/domestic-female-hand-wearing-gloves-cleaning-dirty-stove-after-cooking-using-sponge-washing-woman-housewife-enjoying-daily-household-closeup-top-view.jpg')",
+        'office':"url('/src/images/modern-office-space-interior.jpg')"
       },
 
       fontFamily: {

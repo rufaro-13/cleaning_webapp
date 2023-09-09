@@ -8,6 +8,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Bathroom from './pages/BathRoom'
 import Kitchen from './pages/Kitchen'
+import Office from './pages/Office'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route  path='/services' element={<Services/>}></Route>
         <Route  path='/bathroom' element={<Bathroom/>}></Route>
         <Route  path='/kitchen' element={<Kitchen/>}></Route>
+        <Route  path='/office' element={<Office/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
