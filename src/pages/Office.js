@@ -288,12 +288,12 @@ function Office() {
                     </div>
 
                     
-                    <div className="sm:item-center sm:justify-center text-center ">
+                    <div className="sm:item-center sm:justify-center text-center pt-4">
                         <h3 className='sm:text-2xl md:text-3xl font-bold '>Some of the things on the checklist </h3>
-                        <br/><br/>
+                        <br/>
 
                         <p>
-                            <Link to="/kitchen" className='hover:underline hover:text-blue'>Office Kitchen Cleaning</Link><br/><br/>
+                            <Link to="/kitchen" className='hover:underline hover:text-blue'>Office Kitchen Cleaning</Link><br/>
                             <Link to="/bathroom" className='hover:underline hover:text-blue'>Office Bathroom Cleaning</Link>
 
                         </p>
