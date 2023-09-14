@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
 
-        <section className='lg:pt-8'>
+        <section className='lg:pt-16'>
 
             <div className='bg-gray-200'>
                 <div className="sm:item-center bg-gray-200 sm:justify-center text-center ">
@@ -27,6 +27,9 @@ function Footer() {
                         <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
                             
+                            The key is to set realistic customer expectations, and then not just meet them but to exceed them 
+                            preferably 
+                            in unexpected and helpful way.<br/><br/>
                             </p>
 
                             
@@ -34,15 +37,15 @@ function Footer() {
                       </div>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-                        <center><img src={amazing} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/></center>
+                        <center><img src={amazing} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/>
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
                             Phenomenal Delivery
                             </p>
-                        </h5>
+                        </h5></center>
                         <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
-                           
+                            We aim to always deliver more than what is expected.<br/><br/>
                             </p>
 
                             
@@ -50,12 +53,12 @@ function Footer() {
                       </div>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-                        <center><img src={equal} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/></center>
+                        <center><img src={equal} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/>
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
                             Unequaled Knowledge
                             </p>
-                        </h5>
+                        </h5></center>
                         <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
                              
