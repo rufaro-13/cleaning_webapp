@@ -10,6 +10,7 @@ import Bathroom from './pages/BathRoom'
 import Kitchen from './pages/Kitchen'
 import Office from './pages/Office'
 import Restaurant from './pages/Restaurant'
+import Quote from './components/Quote'
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ function App() {
         <Route  path='/kitchen' element={<Kitchen/>}></Route>
         <Route  path='/office' element={<Office/>}></Route>
         <Route  path='/restaurant' element={<Restaurant/>}></Route>
+        <Route  path='/quote' element={<Quote/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
