@@ -57,7 +57,7 @@ function Services() {
                             Deep cleaning, stain removal using hot water extraction, dry-cleaning and vacuuming. 
                             </p>
 
-                            <center><Link to="services" 
+                            <center><Link to="/carpet" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -204,7 +204,7 @@ function Services() {
                             Emtying bins, cleaning washrooms/toilets, event arena, seats and many more  
                             </p>
 
-                            <center><Link to="services" 
+                            <center><Link to="/event" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
