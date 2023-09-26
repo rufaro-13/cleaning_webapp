@@ -18,7 +18,7 @@ function Footer() {
                 <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-                        <center><img src={excellent} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/></center>
+                        <center><img src={excellent} alt='excellence'  class='sm:items-center sm:justify-center mx-1   my-6'/></center>
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
                             Excellent Service

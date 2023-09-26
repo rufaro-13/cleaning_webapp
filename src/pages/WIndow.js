@@ -123,7 +123,7 @@ function WIndow() {
                     </div>
 
                     
-                    <div className=' flex px-2 md:px-8 mt-8 pt-5 col-span-1 lg:w-full bg-navcolour text-white sm:items-start sm:justify-center ' >
+                    <div className=' lg:flex px-2 md:px-8 mt-8 mb-8 pt-5 col-span-1 lg:w-full bg-navcolour text-white sm:items-start sm:justify-center ' >
 
                         <p className='bg-navcolour text-white px-8 py-5'>
                         <h1 className='sm:text-2xl text-orangetheme md:text-3xl font-bold '>What you need to know when you request our services </h1>
