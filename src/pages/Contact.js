@@ -34,15 +34,15 @@ function Contact() {
                     <div class="max-w-fit  sm:82 rounded-lg   sm:items-center sm:justify-center py-4 lg:ml-48 mt-8">
 
                         <IconContext.Provider value={{ color: '#ff0000', size: '50px', padding:'5px 2px' }}>
-                            <a href="mailto:info@veemuhealthcare.co.uk"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
+                            <a href="mailto:info@stainmasterslimited.co.uk"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
                             
                             <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-6 my-6"/>
                             </div></a>
                           </IconContext.Provider>
                           <div class="  sm:items-center sm:justify-center  mt-1">
                             <p class=" text-1xl font-normal">
-                            <div><span class="text-black text-2xl font-bold"><a href="mailto:info@veemuhealthcare.co.uk" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
-                            info@veemuhealthcare.co.uk
+                            <div><span class="text-black text-2xl font-bold"><a href="mailto:info@stainmasterslimited.co.uk" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
+                            info@stainmasterslimited.co.uk
 
                             </p>
                           </div>
