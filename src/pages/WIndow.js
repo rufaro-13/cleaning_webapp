@@ -38,7 +38,7 @@ function WIndow() {
 
 
                         <div className='w-fit mx-1 flex  sm:items-center sm:justify-center   mt-0 mb-1'>
-                            <img class="rounded-t-lg" src={window} alt="" />
+                            <img class="rounded-lg" src={window} alt="" />
                         </div>
                         <div className='px-2 lg:px-6  col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center ' >
 
