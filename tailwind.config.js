@@ -17,7 +17,8 @@ module.exports = {
         'kitchen':"url('/src/images/domestic-female-hand-wearing-gloves-cleaning-dirty-stove-after-cooking-using-sponge-washing-woman-housewife-enjoying-daily-household-closeup-top-view.jpg')",
         'office':"url('/src/images/modern-office-space-interior.jpg')",
         'carpet':"url('/src/images/close-up-disinfecting-with-cleaning-supplies.jpg')",
-        'restaurant':"url('/src/images/restaurant-interior.jpg')"
+        'restaurant':"url('/src/images/restaurant-interior.jpg')",
+        'window':"url('/src/images/man-doing-professional-home-cleaning-service.jpg')",
       },
 
       fontFamily: {

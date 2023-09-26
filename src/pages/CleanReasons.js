@@ -12,7 +12,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="w-1/2 max-w-[100%] mx-auto">
+    <div className="w-1/2 max-w-[100%] mx-2 md:mx-auto">
 
         {/* item 1 */}
       <div className="border rounded mb-2">

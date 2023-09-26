@@ -13,6 +13,7 @@ import Restaurant from './pages/Restaurant'
 import Quote from './components/Quote'
 import AfterEvent from './pages/AfterEvent'
 import Carpet from './pages/Carpet'
+import WIndow from './pages/WIndow'
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +30,7 @@ function App() {
         <Route  path='/quote' element={<Quote/>}></Route>
         <Route  path='/event' element={<AfterEvent/>}></Route>
         <Route  path='/carpet' element={<Carpet/>}></Route>
+        <Route  path='/window' element={<WIndow/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
