@@ -19,6 +19,9 @@ module.exports = {
         'carpet':"url('/src/images/close-up-disinfecting-with-cleaning-supplies.jpg')",
         'restaurant':"url('/src/images/restaurant-interior.jpg')",
         'window':"url('/src/images/man-doing-professional-home-cleaning-service.jpg')",
+        'tailored':"url('/src/images/smiling-positive-housewife-with-dreadlocks-holds-mop.jpg')",
+        'after_event':"url('/src/images/people-dancing-party.jpg')",
+        'about':"url('/src/images/marble-compostion-with-colorful-style.jpg')",
       },
 
       fontFamily: {

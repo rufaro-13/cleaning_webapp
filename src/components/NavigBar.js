@@ -10,16 +10,18 @@ export default function NavbarWithCTAButton() {
       
       className="bg-blue-300"
     >
-      <Navbar.Brand href="https://flowbite-react.com">
-        <img
-          alt="Flowbite React Logo"
-          className="mr-3 h-10 sm:h-16"
-          src={logo}
-        />
-        <span className="self-center whitespace-nowrap text-navcolour text-xl font-semibold dark:text-white">
-          StainMasters
-        </span>
-      </Navbar.Brand>
+      <Link to='/'>
+        <Navbar.Brand >
+          <img
+            alt="Flowbite React Logo"
+            className="mr-3 h-10 sm:h-16"
+            src={logo}
+          />
+          <span className="self-center whitespace-nowrap text-navcolour text-xl font-semibold dark:text-white">
+            StainMasters
+          </span>
+        </Navbar.Brand>
+      </Link>
       <div className="flex md:order-2">
         
         <Navbar.Toggle />

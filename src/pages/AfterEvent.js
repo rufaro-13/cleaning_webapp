@@ -5,9 +5,9 @@ import {PiConfettiFill} from 'react-icons/pi'
 function AfterEvent() {
   return (
     <div>
-        <section class="bg-cover bg-center bg-no-repeat bg-afterevent bg-gray-400 bg-blend-multiply pt-44">
+        <section class="bg-cover bg-center bg-no-repeat bg-after_event bg-gray-400 bg-blend-multiply pt-96">
             
-            <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">
+            <div class="px-4 mx-auto  w-full text-center py-24 lg:py-20">
             
                 <h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-blue-300 md:text-5xl lg:text-6xl">After-Event Cleaning</h1>
                 <p class="mb-8 text-2xl font-bold text-gray-300 lg:text-xl sm:px-16 lg:px-48"></p>

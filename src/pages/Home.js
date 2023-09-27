@@ -207,10 +207,22 @@ function Home() {
       <section className='pt-8'>
 
         <div>
-          <div className="sm:item-center sm:justify-center text-center ">
-
+        <div class="sm:flex sm:items-center sm:justify-center lg:mx-8 mt-2 px-5">
+                  <p class=" font-normal text-sm md:text-lg text-navcolour">
+                  <h1 className='sm:text-2xl text-orangetheme md:text-3xl font-bold '>
+                    The starting point </h1> <br/>
+                  <ul className='list-disc pl-4'>
+                    <li>We present our company IDs</li>
+                    <li>We introduce our team members so that you can be aware of the people working on your premise </li>
+                    <li>The methods and materials to be used during the cleaning process will be let known to you</li>
+                    <li>We will hear from you if there are any points that need more concentration or to be prioritized</li>
+                    
+                  </ul>
+                  
+                  </p>
+                  <br/>
             
-          </div>
+                </div>
         </div>
 
       </section>

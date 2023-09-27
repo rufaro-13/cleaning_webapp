@@ -15,10 +15,15 @@ function Services() {
       <section className='py-8'>
 
         <div>
-        <div class="px-4 mx-auto max-w-screen-xl text-center pt-6 flex sm:items-center sm:justify-center ">
+        <div class="px-4 mx-auto max-w-screen-xl text-center pt-6  sm:items-center sm:justify-center ">
                     <h4 class="mb-4 text-center text-1xl font-extrabold tracking-tight leading-none text-black md:text-3xl lg:text-3xl">
-                        Why you should choose us
-                    </h4>  
+                        The services we offer:
+                    </h4> <br/> 
+
+                    <p>
+                        We offer a range of cleaning services. All the cleaning services listed below apply to 
+                        houses, restaurants, offices, healthcare facilities and etc.
+                    </p>
                 </div> 
         </div>
 
@@ -34,7 +39,7 @@ function Services() {
                         <p className="font-normal bg-slate-50 text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
                             Thorough scrubbing and disinfecting of bathtubs, surfaces, toilets and 
-                            many more 
+                            many more .
                             </p>
 
                             <center><Link to="/bathroom_cleaning" 
@@ -98,7 +103,7 @@ function Services() {
                         <p className="font-normal text-sm md:text-lg bg-slate-50 text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
                             We do exterior and interior cleaning of architectural glass(structural, lighting or decorative glass) 
-                            etc 
+                            etc. 
                             </p>
 
                             <center><Link to="/window_cleaning" 
@@ -138,11 +143,10 @@ function Services() {
                         </h5>
                         <p className="font-normal text-sm md:text-lg bg-slate-50 text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
-                            We do exterior and interior cleaning of architectural glass(structural, lighting or decorative glass) 
-                            etc 
+                            We cleaning according to your schedule and needs. We value our service users' comfort and satisfaction.
                             </p>
 
-                            <center><Link to="services" 
+                            <center><Link to="/tailored_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -201,7 +205,7 @@ function Services() {
                         </h5>
                         <p className="font-normal text-sm bg-slate-50 md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
-                            Emtying bins, cleaning washrooms/toilets, event arena, seats and many more  
+                            Emtying bins, cleaning washrooms/toilets, event arena, seats and many more. 
                             </p>
 
                             <center><Link to="/event_cleaning" 

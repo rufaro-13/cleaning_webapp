@@ -15,6 +15,7 @@ import AfterEvent from './pages/AfterEvent'
 import Carpet from './pages/Carpet'
 import WIndow from './pages/WIndow'
 import Deep from './pages/Deep'
+import Tailored from './pages/Tailored'
 function App() {
   return (
     <BrowserRouter>
@@ -33,6 +34,7 @@ function App() {
         <Route  path='/carpet_cleaning' element={<Carpet/>}></Route>
         <Route  path='/window_cleaning' element={<WIndow/>}></Route>
         <Route  path='/deep_cleaning' element={<Deep/>}></Route>
+        <Route  path='/tailored_cleaning' element={<Tailored/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
