@@ -1,6 +1,6 @@
 'use client';
 
-import {Button,Navbar } from 'flowbite-react';
+import {Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
 import logo from '../images/StainMasters_png.png'
 export default function NavbarWithCTAButton() {
@@ -23,11 +23,11 @@ export default function NavbarWithCTAButton() {
       <div className="flex md:order-2">
         
         <Navbar.Toggle />
-        <Link to='/quote'>
+       {/*  <Link to='/quote'>
         <Button>
           Get Quote
         </Button>
-        </Link>
+        </Link> */}
         
       </div>
       <Navbar.Collapse>

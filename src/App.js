@@ -14,6 +14,7 @@ import Quote from './components/Quote'
 import AfterEvent from './pages/AfterEvent'
 import Carpet from './pages/Carpet'
 import WIndow from './pages/WIndow'
+import Deep from './pages/Deep'
 function App() {
   return (
     <BrowserRouter>
@@ -23,14 +24,15 @@ function App() {
         <Route  path='/about' element= {<About/>}></Route>
         <Route  path='/contact' element= {<Contact/>}></Route>
         <Route  path='/services' element={<Services/>}></Route>
-        <Route  path='/bathroom' element={<Bathroom/>}></Route>
-        <Route  path='/kitchen' element={<Kitchen/>}></Route>
-        <Route  path='/office' element={<Office/>}></Route>
-        <Route  path='/restaurant' element={<Restaurant/>}></Route>
+        <Route  path='/bathroom_cleaning' element={<Bathroom/>}></Route>
+        <Route  path='/kitchen_cleaning' element={<Kitchen/>}></Route>
+        <Route  path='/office_cleaning' element={<Office/>}></Route>
+        <Route  path='/restaurant_cleaning' element={<Restaurant/>}></Route>
         <Route  path='/quote' element={<Quote/>}></Route>
-        <Route  path='/event' element={<AfterEvent/>}></Route>
-        <Route  path='/carpet' element={<Carpet/>}></Route>
-        <Route  path='/window' element={<WIndow/>}></Route>
+        <Route  path='/event_cleaning' element={<AfterEvent/>}></Route>
+        <Route  path='/carpet_cleaning' element={<Carpet/>}></Route>
+        <Route  path='/window_cleaning' element={<WIndow/>}></Route>
+        <Route  path='/deep_cleaning' element={<Deep/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

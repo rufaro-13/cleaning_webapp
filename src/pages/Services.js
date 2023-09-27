@@ -37,7 +37,7 @@ function Services() {
                             many more 
                             </p>
 
-                            <center><Link to="/bathroom" 
+                            <center><Link to="/bathroom_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -57,7 +57,7 @@ function Services() {
                             Deep cleaning, stain removal using hot water extraction, dry-cleaning and vacuuming. 
                             </p>
 
-                            <center><Link to="/carpet" 
+                            <center><Link to="/carpet_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -77,7 +77,7 @@ function Services() {
                             We clean the cupboards, pantry, cooker, surfaces, fridge and many more. 
                             </p>
 
-                            <center><Link to="/kitchen" 
+                            <center><Link to="/kitchen_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -101,7 +101,7 @@ function Services() {
                             etc 
                             </p>
 
-                            <center><Link to="/window" 
+                            <center><Link to="/window_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -121,7 +121,7 @@ function Services() {
                            Cleaning and sanitization of tables, seats, counters, menus etc. We also launder all napkins tablescloths and aprons. 
                             </p>
 
-                            <center><Link to="/restaurant" 
+                            <center><Link to="/restaurant_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -164,7 +164,7 @@ function Services() {
                             We clean and sanitize surfaces, doorknobs, handles, light switches etc and vacuuming.
                             </p>
 
-                            <center><Link to="/office" 
+                            <center><Link to="/office_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -184,7 +184,7 @@ function Services() {
                            We get rid of dirt, grime and other gunk at home, offices and or restaurants. 
                             </p>
 
-                            <center><Link to="services" 
+                            <center><Link to="/deep_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
@@ -204,7 +204,7 @@ function Services() {
                             Emtying bins, cleaning washrooms/toilets, event arena, seats and many more  
                             </p>
 
-                            <center><Link to="/event" 
+                            <center><Link to="/event_cleaning" 
                                 class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-4 mb-4 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-full border border-green hover:bg-orange-300 focus:ring-4 focus:ring-green-400  bg-blue-300">
                                     Learn more
