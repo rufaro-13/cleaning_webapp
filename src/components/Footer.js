@@ -70,13 +70,18 @@ function Footer() {
                         </p>
                       </div>
 
+                    
+        
         </div>
+
+        <div>
+
+<marquee behavior="scroll" direction="left "className="flex"><h1 class="mb-4 text-1xl font-extrabold font-cursive tracking-tight leading-none text-navcolour md:text-2xl lg:text-3xl">" STAINMASTERS IS AN EVER GROWING CLEANING SERVICE PROVIDER "</h1></marquee>
+</div>
+
             </div>
 
-<div>
 
-<marquee behavior="scroll" direction="left "className="flex"><h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-navcolour md:text-2xl lg:text-3xl">" STAINMASTERS IS AN EVER GROWING CLEANING SERVICE PROVIDER "</h1></marquee>
-</div>
 
         </section>
         

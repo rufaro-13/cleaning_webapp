@@ -57,11 +57,11 @@ function Contact() {
                           </IconContext.Provider>
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
-                            <div><span class="text-black  "><a href="tel:07507913398" 
+                            <div><span class="text-black text-black text-2xl font-bold "><a href="tel:07507913398" 
                             className="block py-2  underline text-black rounded hover:bg-gray-100 md:hover:bg-transparent 
                             md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
-                             dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Mobile: 07507913398</a></span></div>
-                            
+                             dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call us</a></span></div>
+                            Mobile: 07507913398
                             </p>
                           </div>
 
@@ -80,8 +80,8 @@ function Contact() {
 
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
-                            <div><span class="text-black "><a href="tel:c" 
-                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
+                            <div><span class="text-black text-2xl font-bold"><a href="tel:" 
+                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Message Us</a></span></div>
                             Whatsapp: 07507913398
                             </p>
                           </div>
@@ -92,7 +92,7 @@ function Contact() {
                     <div class="lg:px-2 px-4  col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
 
                          <a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black"  viewBox="0 0 512 512">
+                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="black"  viewBox="0 0 512 512">
                           
                           <path fill-rule="evenodd" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" clip-rule="evenodd"/>
                         </svg>
@@ -108,7 +108,7 @@ function Contact() {
 
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
-                            <div><span class="text-black "><a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA" 
+                            <div><span class="text-black text-2xl font-bold "><a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA" 
                             className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Follow Us</a></span></div>
                             X: @StainMastersLtd
                             </p>
@@ -127,7 +127,7 @@ function Contact() {
 
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
-                            <div><span class="text-black "><a href="https://instagram.com/stainmasters_limited?igshid=NGVhN2U2NjQ0Yg==" 
+                            <div><span class="text-black text-2xl font-bold "><a href="https://instagram.com/stainmasters_limited?igshid=NGVhN2U2NjQ0Yg==" 
                             className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Follow Us</a></span></div>
                             instagram: @stainmasters_limited
                             </p>
@@ -148,8 +148,8 @@ function Contact() {
                                 <span class="text-black text-2xl font-bold">
                                   <a href="https://www.google.com/maps/place/52+Hinckley+Rd,+Leicester+LE3+0RB,+UK/@52.6312504,-1.1502901,17z" 
                                       className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Visit Us</a></span></div>
-                                      StainMasters Limited<br/><br/>
-                                      52 Hinckley Road, LE3 0RB
+                                      StainMasters Limited<br/>
+                                      52 Hinckley Road, LE3 0RB<br/>
                                       Leicester
                                       <br/>
                             </p>
@@ -159,7 +159,18 @@ function Contact() {
                 </div>
 
                 
+                <div class="lg:px-4 mx-auto max-w-screen-xl text-center pt-6  ">
+                    <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-navcolour md:text-3xl lg:text-3xl">
+                    Opening Times
+                    </h4>
 
+                    <p>
+                    Mon-Thurs 8am - 6pm<br/>
+                    Friday    8am- 5pm<br/>
+                    Sartuday  9am-3pm<br/>
+                    Sunday    9am-3pm<br/>
+                    </p>
+                </div>
         
          
          <div>
