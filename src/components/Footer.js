@@ -2,6 +2,7 @@ import React from 'react'
 /* import excellent from '../images/excellence.png'
 import equal from '../images/no-equal-to.png'
 import amazing from '../images/suprise.png' */
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import logo from '../images/StainMasters_png.png'
 import { Link } from 'react-router-dom';
 function Footer() {
@@ -73,6 +74,7 @@ function Footer() {
             </div>
 
 <div>
+
 <marquee behavior="scroll" direction="left "className="flex"><h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-navcolour md:text-2xl lg:text-3xl">" STAINMASTERS IS AN EVER GROWING CLEANING SERVICE PROVIDER "</h1></marquee>
 </div>
 
