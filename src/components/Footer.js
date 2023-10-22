@@ -1,7 +1,7 @@
 import React from 'react'
-import excellent from '../images/excellence.png'
+/* import excellent from '../images/excellence.png'
 import equal from '../images/no-equal-to.png'
-import amazing from '../images/suprise.png'
+import amazing from '../images/suprise.png' */
 import logo from '../images/StainMasters_png.png'
 import { Link } from 'react-router-dom';
 function Footer() {
@@ -19,13 +19,13 @@ function Footer() {
                 <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-                        <center><img src={excellent} alt='excellence'  class='sm:items-center sm:justify-center mx-1   my-6'/>
-                        <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
+                        <center>{/* <img src={excellent} alt='excellence'  class='sm:items-center sm:justify-center mx-1   my-6'/> */}
+                        <h5 className="md:text-2xl text-lg font-cursive font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
                             Excellent Service
                             </p>
                         </h5></center>
-                        <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
+                        <p className="font-normal text-sm md:text-lg font-cursive text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
                             
                             The key is to set realistic customer expectations, and then not just meet them but to exceed them 
@@ -38,13 +38,13 @@ function Footer() {
                       </div>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-                        <center><img src={amazing} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/>
-                        <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
+                        <center>{/* <img src={amazing} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/> */}
+                        <h5 className="md:text-2xl text-lg font-bold font-cursive tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
                             Phenomenal Delivery
                             </p>
                         </h5></center>
-                        <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
+                        <p className="font-normal font-cursive text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
                             We aim to always deliver more than what is expected.<br/><br/>
                             </p>
@@ -54,13 +54,13 @@ function Footer() {
                       </div>
 
                       <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-                        <center><img src={equal} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/>
-                        <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
+                        <center>{/* <img src={equal} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/> */}
+                        <h5 className="md:text-2xl text-lg font-bold font-cursive tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
                             Unequaled Knowledge
                             </p>
                         </h5></center>
-                        <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
+                        <p className="font-normal font-cursive text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
                              
                             </p>
@@ -72,7 +72,9 @@ function Footer() {
         </div>
             </div>
 
-
+<div>
+<marquee behavior="scroll" direction="left "className="flex"><h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-navcolour md:text-2xl lg:text-3xl">" STAINMASTERS IS AN EVER GROWING CLEANING SERVICE PROVIDER "</h1></marquee>
+</div>
 
         </section>
         
