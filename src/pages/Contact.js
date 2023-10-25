@@ -189,7 +189,7 @@ function Contact() {
                   </div>
                 
                   <div class=" lg:w-2/5 sm:w-screen">
-                  <div class="lg:px-0 px-2   pt-5 mt-1 w-fit md:w-1/2 sm:items-start sm:justify-start">
+                  <div class="lg:px-0 px-2 pb-4  pt-5 mt-1 w-fit md:w-1/2 sm:items-start sm:justify-start">
                   <form class="  max-w-max " ref={form} onSubmit={sendEmail}>
                 
                     <div class="mb-6 ">
@@ -266,7 +266,7 @@ function Contact() {
                       </div>
                   </div>
 
-                  <div className='lg:w-3/5 '>
+                  <div className='lg:w-3/ pb-4 '>
                     <Appliction/>
                   </div>
                 </div>
