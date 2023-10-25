@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import {Helmet} from 'react-helmet-async'
 import carpet from '../images/full-shot-man-servant-vacuuming-floor.jpg'
 import tailored from '../images/still-life-cleaning-tools.jpg'
 import office from '../images/full-shot-people-cleaning-office.jpg'
@@ -12,6 +13,12 @@ import bathroom from '../images/crop-blonde-woman-from-cleaning-company-wearing-
 function Services() {
   return (
     <div>
+        <Helmet>
+            <title>Services </title>
+            <meta name="description" content="These are the services that we offer.
+                        "/>
+            <link rel="canonical" href="/services" />
+     </Helmet>
       <section className='py-8'>
 
         <div>

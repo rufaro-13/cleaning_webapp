@@ -2,8 +2,17 @@ import React from 'react'
 import dishes from '../images/morning-after-christmas-day-table-with-alcohol-leftovers.jpg'
 import { IconContext } from "react-icons";
 import {PiConfettiFill} from 'react-icons/pi'
+import { Helmet } from 'react-helmet-async';
 function AfterEvent() {
   return (
+    <div>
+        <Helmet>
+            <title>After_event cleaning </title>
+            <meta name="description" content="We clean after your event.
+                        "/>
+            <link rel="canonical" href="/event_cleaning" />
+     </Helmet>
+    
     <div>
         <section class="bg-cover bg-center bg-no-repeat bg-after_event bg-gray-400 bg-blend-multiply pt-96">
             
@@ -200,7 +209,7 @@ function AfterEvent() {
                 </div>
             </div>
         </section>
-    </div>
+    </div></div>
   )
 }
 

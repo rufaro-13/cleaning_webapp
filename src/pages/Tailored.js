@@ -1,11 +1,17 @@
 'use client';
 import React from 'react'
-
+import { Helmet} from 'react-helmet-async';
 
 
 function Tailored() {
   return (
     <div>
+      <Helmet>
+            <title>Tailored cleaning </title>
+            <meta name="description" content="Check our Tailored Cleaning Checklist.
+                        "/>
+            <link rel="canonical" href="/tailored_cleaning" />
+     </Helmet>
         <section class="bg-cover bg-center bg-no-repeat bg-tailored bg-gray-400 bg-blend-multiply pt-96">
             
             <div class="px-4 mx-auto  w-full text-center py-24 lg:py-28">

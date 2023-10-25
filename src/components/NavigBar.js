@@ -22,7 +22,7 @@ export default function NavbarWithCTAButton() {
           </span>
         </Navbar.Brand>
       </Link>
-      <div className="flex md:order-2">
+      <div className="flex  md:order-2">
         
         <Navbar.Toggle />
        {/*  <Link to='/quote'>
@@ -32,12 +32,12 @@ export default function NavbarWithCTAButton() {
         </Link> */}
         
       </div>
-      <Navbar.Collapse>
+      <Navbar.Collapse className=" ml-2 ">
         <Link
           active
           to="/"
         >
-          <p className='text-navcolour font-bold md:text-lg'>
+          <p className='ml-2 text-navcolour font-bold md:text-lg'>
             Home
           </p>
         </Link>

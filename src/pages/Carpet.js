@@ -1,8 +1,15 @@
 import React from 'react'
 import CleanReasons from './CleanReasons'
+import { Helmet } from 'react-helmet-async';
 function Carpet() {
   return (
     <div>
+        <Helmet>
+            <title>Carpet cleaning </title>
+            <meta name="description" content="Check our Carpet Checklist.
+                        "/>
+            <link rel="canonical" href="/carpet_cleaning" />
+     </Helmet>
         <section class="bg-cover bg-center bg-no-repeat bg-carpet bg-gray-400 bg-blend-multiply pt-44">
             
             <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">

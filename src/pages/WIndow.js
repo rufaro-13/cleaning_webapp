@@ -2,9 +2,16 @@ import React from 'react'
 import {GiWindow} from 'react-icons/gi'
 import { IconContext } from "react-icons";
 import window from '../images/close-up-cleaning-window-with-cloth.jpg'
+import { Helmet } from 'react-helmet-async';
 function WIndow() {
   return (
     <div>
+        <Helmet>
+            <title>Window cleaning </title>
+            <meta name="description" content="Check our Window Checklist.
+                        "/>
+            <link rel="canonical" href="/window_cleaning" />
+     </Helmet>
         <section class="bg-cover bg-center bg-no-repeat bg-window bg-gray-400 bg-blend-multiply pt-28">
             
             <div class="px-4 mx-auto  w-full text-center py-24 lg:py-52">            

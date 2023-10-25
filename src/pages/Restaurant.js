@@ -7,10 +7,16 @@ import {TbToolsKitchen2}from 'react-icons/tb'
 import {GiDominoTiles}from 'react-icons/gi'
 import toilet from '../images/hygiene-bowl-modern-bath-close.jpg'
 import floor from '../images/restaurant-with-tables-chairs-outside.jpg'
-
+import { Helmet } from 'react-helmet-async';
 function Restaurant() {
   return (
     <div>
+        <Helmet>
+            <title>Restaurant cleaning </title>
+            <meta name="description" content="Check our Restaurant Checklist.
+                        "/>
+            <link rel="canonical" href="/restaurant_cleaning" />
+     </Helmet>
     <section class="bg-cover bg-center bg-no-repeat bg-restaurant bg-gray-400 bg-blend-multiply pt-12">
         
         <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">

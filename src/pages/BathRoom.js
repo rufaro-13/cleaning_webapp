@@ -7,9 +7,16 @@ import sink from '../images/new-modern-steel-faucet-with-ceramic-sink-bathroom.j
 import shower from '../images/modern-bathroom-authentic-interior-design.jpg'
 import toilet from '../images/hygiene-bowl-modern-bath-close.jpg'
 import floor from '../images/sleek-minimalistic-bathroom-with-white-toilet-bathtub-sink.jpg'
+import { Helmet } from 'react-helmet-async';
 function BathRoom() {
   return (
     <div>
+        <Helmet>
+            <title>Bathroom cleaning </title>
+            <meta name="description" content="Check our Bathroom Checklist.
+                        "/>
+            <link rel="canonical" href="/bathroom_cleaning" />
+     </Helmet>
         <section class="bg-cover bg-center bg-no-repeat bg-bathroom bg-gray-400 bg-blend-multiply pt-12">
             
             <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">

@@ -8,10 +8,16 @@ import surfaces from '../images/minimalistic-kitchen-corner-with-appliances.jpg'
 import stove from '../images/polished-gas-cooker-after-washingperfectly-clean-gas-cooker-after-being-washed-with-polishing-chemicals-result-washing-burners.jpg'
 import cupboards from '../images/view-beautifully-decorated-green-kitchen.jpg'
 import floor from '../images/close-up-marble-textured-tiles.jpg'
-
+import { Helmet } from 'react-helmet-async';
 function Kitchen() {
   return (
     <div>
+        <Helmet>
+            <title>Kitchen cleaning </title>
+            <meta name="description" content="Check our Kitchen Checklist.
+                        "/>
+            <link rel="canonical" href="/kitchen_cleaning" />
+     </Helmet>
         <section class="bg-cover bg-center bg-no-repeat bg-kitchen bg-gray-400 bg-blend-multiply pt-12">
             
             <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">

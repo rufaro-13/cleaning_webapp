@@ -4,11 +4,12 @@ import equal from '../images/no-equal-to.png'
 import amazing from '../images/suprise.png' */
 /* eslint-disable jsx-a11y/no-distracting-elements */
 import logo from '../images/StainMasters_png.png'
+
 import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div>
-
+        
         <section className='lg:pt-16'>
 
             <div className='bg-gray-200'>

@@ -6,9 +6,16 @@ import office from '../images/abstract-office-desktop.jpg'
 import corridor from '../images/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame.jpg'
 import vending from '../images/Vending machines and snacks set.jpg'
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 function Office() {
   return (
     <div>
+        <Helmet>
+            <title>Office cleaning </title>
+            <meta name="description" content="Check our Office Checklist.
+                        "/>
+            <link rel="canonical" href="/office_cleaning" />
+     </Helmet>
         <section class="bg-cover bg-center bg-no-repeat bg-office bg-gray-400 bg-blend-multiply pt-12">
             
             <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">

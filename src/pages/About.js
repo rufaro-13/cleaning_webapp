@@ -2,12 +2,21 @@ import React from 'react'
 import {TbTargetArrow,TbStarFilled} from 'react-icons/tb'
 import {HiLightBulb} from 'react-icons/hi'
 import { IconContext } from "react-icons";
+import { Helmet } from 'react-helmet-async';
 
 function About() {
   return (
+    <div>
+        <Helmet>
+            <title>About StainMasters Ltd</title>
+            <meta name="description" content="Providing reliable and regular cleaning services which help the people across 
+                    Leicester and Leicestershire.
+                        "/>
+            <link rel="canonical" href="/about" />
+     </Helmet>
     <div class="bg-cover bg-center bg-no-repeat  bg-blend-multiply pt-10">
 
-<section>
+        <section>
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-2  ">
@@ -17,7 +26,8 @@ function About() {
 
                     <p class="px-4  pt-2  font-bold text-navcolour">
 
-                    Here at Stain Masters Ltd we specialise in providing reliable and regular cleaning services which help the people across Leicester and Leicestershire to maintain their properties  and premises with our professional cleaners.. We aim to provide tailored services which suit all our customer requirements. All our cleaners are carefully selected and fully trained as we know that they are the key to the business
+                    Here at Stain Masters Ltd we specialise in providing reliable and regular cleaning services which help the people across 
+                    Leicester and Leicestershire to maintain their properties and premises with our professional cleaners.. We aim to provide tailored services which suit all our customer requirements. All our cleaners are carefully selected and fully trained as we know that they are the key to the business
 We offer regular domestic cleaning services in Leicester either daily, fortnightly, four weekly or as per required.
                     </p>
 
@@ -186,7 +196,7 @@ We offer regular domestic cleaning services in Leicester either daily, fortnight
 
             </div>
       </section> 
-        </div>
+        </div></div>
   )
 }
 

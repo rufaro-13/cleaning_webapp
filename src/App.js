@@ -18,23 +18,23 @@ import Deep from './pages/Deep'
 import Tailored from './pages/Tailored'
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route path="/" element={<Layout/>}>
-        <Route index element = {<Home/>}></Route>
-        <Route  path='/about' element= {<About/>}></Route>
-        <Route  path='/contact' element= {<Contact/>}></Route>
-        <Route  path='/services' element={<Services/>}></Route>
-        <Route  path='/bathroom_cleaning' element={<Bathroom/>}></Route>
-        <Route  path='/kitchen_cleaning' element={<Kitchen/>}></Route>
-        <Route  path='/office_cleaning' element={<Office/>}></Route>
-        <Route  path='/restaurant_cleaning' element={<Restaurant/>}></Route>
-        <Route  path='/quote' element={<Quote/>}></Route>
-        <Route  path='/event_cleaning' element={<AfterEvent/>}></Route>
-        <Route  path='/carpet_cleaning' element={<Carpet/>}></Route>
-        <Route  path='/window_cleaning' element={<WIndow/>}></Route>
-        <Route  path='/deep_cleaning' element={<Deep/>}></Route>
-        <Route  path='/tailored_cleaning' element={<Tailored/>}></Route>
+        <Route forceRefresh={true} index element = {<Home/>}></Route>
+        <Route forceRefresh={true} path='/about' element= {<About/>}></Route>
+        <Route forceRefresh={true} path='/contact' element= {<Contact/>}></Route>
+        <Route forceRefresh={true} path='/services' element={<Services/>}></Route>
+        <Route forceRefresh={true} path='/bathroom_cleaning' element={<Bathroom/>}></Route>
+        <Route forceRefresh={true} path='/kitchen_cleaning' element={<Kitchen/>}></Route>
+        <Route forceRefresh={true} path='/office_cleaning' element={<Office/>}></Route>
+        <Route forceRefresh={true} path='/restaurant_cleaning' element={<Restaurant/>}></Route>
+        <Route forceRefresh={true} path='/quote' element={<Quote/>}></Route>
+        <Route forceRefresh={true} path='/event_cleaning' element={<AfterEvent/>}></Route>
+        <Route forceRefresh={true} path='/carpet_cleaning' element={<Carpet/>}></Route>
+        <Route forceRefresh={true} path='/window_cleaning' element={<WIndow/>}></Route>
+        <Route forceRefresh={true} path='/deep_cleaning' element={<Deep/>}></Route>
+        <Route forceRefresh={true} path='/tailored_cleaning' element={<Tailored/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

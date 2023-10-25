@@ -10,9 +10,16 @@ import bedroom from '../images/chambermaid-making-bed-hotel-room.jpg'
 import out from '../images/serrated-metal-rake-garden-cleaning.jpg'
 import living from '../images/interior-design-with-photoframes-couch.jpg'
 import office from '../images/professional-cleaning-service-person-using-vacuum-cleaner-office.jpg'
+import { Helmet } from 'react-helmet-async';
 function Deep() {
   return (
     <div>
+        <Helmet>
+            <title>Deep cleaning </title>
+            <meta name="description" content="Check our Deep Checklist.
+                        "/>
+            <link rel="canonical" href="/deep_cleaning" />
+     </Helmet>
         <section class="bg-cover bg-center bg-no-repeat bg-office bg-gray-400 bg-blend-multiply pt-12">
             
             <div class="px-4 mx-auto  w-full text-center py-24 lg:py-40">
