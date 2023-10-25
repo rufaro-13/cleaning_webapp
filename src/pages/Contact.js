@@ -98,7 +98,7 @@ function Contact() {
                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-center sm:justify-center">
 
                             <IconContext.Provider value={{ color: 'green', size: '50px', padding:'5px 2px' }}>
-                              <a href="https://api.whatsapp.com/send?phone=447507913398"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <a href="https://wa.me/447507913398"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                                 <FaSquareWhatsapp class="sm:items-center sm:justify-center  my-6"/>
                               </div></a>
                             </IconContext.Provider>
@@ -106,7 +106,7 @@ function Contact() {
 
                             <div class="  sm:items-center sm:justify-center   mt-1">
                               <p class=" text-1xl font-normal">
-                              <div><span class="text-black text-2xl font-bold"><a href="https://api.whatsapp.com/send?phone=447507913398"target="blank" 
+                              <div><span class="text-black text-2xl font-bold"><a href="https://wa.me/447507913398"target="blank" 
                               className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Message Us</a></span></div>
                               Whatsapp: 07507913398
                               </p>
@@ -185,10 +185,10 @@ function Contact() {
 
                       </div>
 
-                      <div class="lg:px-1 px-4  col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
+                      <div class="lg:px-1 px-4 pb-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
 
                             <IconContext.Provider value={{ color: '#89cff0', size: '50px', padding:'5px 2px' }}>
-                              <a href="https://www.google.com/maps/place/19+Albert+Square,+London+E15+1HJ,+UK/@51.6118925,0.0336148,11z"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <a href="https://www.google.com/maps/place/52+Hinckley+Rd,+Leicester+LE3+0RB,+UK/@52.6312504,-1.1502901,17z"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                                 <FaLocationDot class="sm:items-center sm:justify-center  my-6"/>
                               </div></a>
                             </IconContext.Provider>
