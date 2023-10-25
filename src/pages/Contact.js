@@ -1,7 +1,7 @@
 import React, { useRef} from 'react'
 import { IconContext } from "react-icons";
 import emailjs from '@emailjs/browser';
-import { FaEnvelopeOpenText, FaLocationDot,FaSquareWhatsapp, FaMobileScreenButton, FaInstagram } from 'react-icons/fa6';
+import { FaEnvelopeOpenText,FaSquareFacebook, FaLocationDot,FaSquareWhatsapp, FaMobileScreenButton, FaInstagram,FaSquareXTwitter } from 'react-icons/fa6';
 import './insta.css'
 import { Label, Select } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi'
@@ -60,14 +60,14 @@ function Contact() {
                       <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                           <IconContext.Provider value={{ color: '#ff0000', size: '50px', padding:'5px 2px' }}>
-                              <a href="mailto:info@stainmasterslimited.com"><div class="  sm:items-center sm:justify-center  mx-2 mt-5 mb-5">
+                              <a href="mailto:info@stainmasterslimited.com"target="blank"><div class="  sm:items-center sm:justify-center  mx-2 mt-5 mb-5">
                               
                               <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-6 my-6"/>
                               </div></a>
                             </IconContext.Provider>
                             <div class="  sm:items-center sm:justify-center  mt-1">
                               <p class=" text-1xl font-normal">
-                              <div><span class="text-black text-2xl font-bold"><a href="mailto:info@stainmasterslimited.co.uk" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
+                              <div><span class="text-black text-2xl font-bold"><a href="mailto:info@stainmasterslimited.co.uk"target="blank" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
                               info@stainmasterslimited.com
 
                               </p>
@@ -77,13 +77,13 @@ function Contact() {
                       <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                             <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                              <a href="tel:07427494551"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <a href="tel:07427494551"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                                 <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
                               </div></a>
                             </IconContext.Provider>
                             <div class="  sm:items-center sm:justify-center   mt-1">
                               <p class=" text-1xl font-normal">
-                              <div><span class="text-black text-black text-2xl font-bold "><a href="tel:07507913398" 
+                              <div><span class="text-black text-black text-2xl font-bold "><a href="tel:07507913398" target="blank"
                               className="block py-2  underline text-black rounded hover:bg-gray-100 md:hover:bg-transparent 
                               md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
                               dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call us</a></span></div>
@@ -98,7 +98,7 @@ function Contact() {
                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-center sm:justify-center">
 
                             <IconContext.Provider value={{ color: 'green', size: '50px', padding:'5px 2px' }}>
-                              <a href="tel:07463 372 8971"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <a href="https://api.whatsapp.com/send?phone=447507913398"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                                 <FaSquareWhatsapp class="sm:items-center sm:justify-center  my-6"/>
                               </div></a>
                             </IconContext.Provider>
@@ -106,7 +106,7 @@ function Contact() {
 
                             <div class="  sm:items-center sm:justify-center   mt-1">
                               <p class=" text-1xl font-normal">
-                              <div><span class="text-black text-2xl font-bold"><a href="tel:" 
+                              <div><span class="text-black text-2xl font-bold"><a href="https://api.whatsapp.com/send?phone=447507913398"target="blank" 
                               className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Message Us</a></span></div>
                               Whatsapp: 07507913398
                               </p>
@@ -117,14 +117,19 @@ function Contact() {
                   
                       <div class="lg:px-1 px-4  col-span-1 max-w-md  md:w-1/2 sm:items-center sm:justify-center">
 
-                          <a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                          {/* <a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA"target="blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                           <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="black"  viewBox="0 0 512 512">
                             
                             <path fill-rule="evenodd" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" clip-rule="evenodd"/>
                           </svg>
                             <span class="sr-only">Twitter handle</span>
-                          </a>
+                          </a> */}
 
+                              <IconContext.Provider value={{ color: 'black', size: '50px', padding:'5px 2px' }}>
+                              <a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                                <FaSquareXTwitter class="sm:items-center sm:justify-center  my-6"/>
+                              </div></a>
+                            </IconContext.Provider>
                             {/*< IconContext.Provider value={{ color: 'black', size: '50px', padding:'5px 2px' }}>
                               <a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                                 <FaXTwitter class="sm:items-center sm:justify-center  my-6"/>
@@ -134,9 +139,9 @@ function Contact() {
 
                             <div class="  sm:items-center sm:justify-center   mt-1">
                               <p class=" text-1xl font-normal">
-                              <div><span class="text-black text-2xl font-bold "><a href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA" 
+                              <div><span class="text-black text-2xl font-bold "><a target="blank" href="https://x.com/stainmastersltd?s=11&t=ksJmMFAEzPdupCkRpF5qIA"  
                               className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Follow Us</a></span></div>
-                              X: @StainMastersLtd
+                              X(twitter): @StainMastersLtd
                               </p>
                             </div>
 
@@ -145,7 +150,7 @@ function Contact() {
                       <div class="lg:px-1 px-4  col-span-1 max-w-md  md:w-1/2 sm:items-center sm:justify-center">
 
                             <IconContext.Provider value={{ color:'white', size: '50px', padding:'5px 2px' }}>
-                              <a href="https://instagram.com/stainmasters_limited?igshid=NGVhN2U2NjQ0Yg=="><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <a href="https://instagram.com/stainmasters_limited?igshid=NGVhN2U2NjQ0Yg=="target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                                 <FaInstagram class="sm:items-center insta rounded sm:justify-center  my-6"/>
                               </div></a>
                             </IconContext.Provider>
@@ -153,9 +158,28 @@ function Contact() {
 
                             <div class="  sm:items-center sm:justify-center   mt-1">
                               <p class=" text-1xl font-normal">
-                              <div><span class="text-black text-2xl font-bold "><a href="https://instagram.com/stainmasters_limited?igshid=NGVhN2U2NjQ0Yg==" 
+                              <div><span class="text-black text-2xl font-bold "><a href="https://instagram.com/stainmasters_limited?igshid=NGVhN2U2NjQ0Yg==" target="blank"
                               className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Follow Us</a></span></div>
                               instagram: @stainmasters_limited
+                              </p>
+                            </div>
+
+                      </div>
+
+                      <div class="lg:px-1 px-4  col-span-1 max-w-md  md:w-1/2 sm:items-center sm:justify-center">
+
+                            <IconContext.Provider value={{ color:'blue', size: '50px', padding:'5px 2px' }}>
+                              <a href="https://www.facebook.com/profile.php?id=61552407106811"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                                <FaSquareFacebook class="sm:items-center  rounded sm:justify-center  my-6"/>
+                              </div></a>
+                            </IconContext.Provider>
+                            
+
+                            <div class="  sm:items-center sm:justify-center   mt-1">
+                              <p class=" text-1xl font-normal">
+                              <div><span class="text-black text-2xl font-bold "><a href="https://www.facebook.com/profile.php?id=61552407106811" target="blank"
+                              className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Like our page</a></span></div>
+                              facebook: StainMasters Limited
                               </p>
                             </div>
 
@@ -164,7 +188,7 @@ function Contact() {
                       <div class="lg:px-1 px-4  col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
 
                             <IconContext.Provider value={{ color: '#89cff0', size: '50px', padding:'5px 2px' }}>
-                              <a href="https://www.google.com/maps/place/19+Albert+Square,+London+E15+1HJ,+UK/@51.6118925,0.0336148,11z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <a href="https://www.google.com/maps/place/19+Albert+Square,+London+E15+1HJ,+UK/@51.6118925,0.0336148,11z"target="blank"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                                 <FaLocationDot class="sm:items-center sm:justify-center  my-6"/>
                               </div></a>
                             </IconContext.Provider>
@@ -172,7 +196,7 @@ function Contact() {
                               <p class=" text-1xl font-normal">
                                 <div>
                                   <span class="text-black text-2xl font-bold">
-                                    <a href="https://www.google.com/maps/place/52+Hinckley+Rd,+Leicester+LE3+0RB,+UK/@52.6312504,-1.1502901,17z" 
+                                    <a href="https://www.google.com/maps/place/52+Hinckley+Rd,+Leicester+LE3+0RB,+UK/@52.6312504,-1.1502901,17z"target="blank" 
                                         className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Visit Us</a></span></div>
                                         StainMasters Limited<br/>
                                         52 Hinckley Road, LE3 0RB<br/>
