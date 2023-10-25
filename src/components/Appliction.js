@@ -38,7 +38,7 @@ const Accordion = () => {
           onClick={() => toggleAccordion(0)}
         >
           <div className=" flex justify-between items-center">
-            <span className="text-lg font-medium">Are you looking for a job, StainMasters is actively recruiting, click here to get youur next job. </span>
+            <span className="text-lg font-medium">Are you looking for a job1? StainMasters is actively recruiting, click here to get your next job. </span>
             <span className="transform transition-transform">
               {activeIndex === 0 ? (
                 <svg
