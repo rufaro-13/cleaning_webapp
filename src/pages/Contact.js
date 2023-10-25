@@ -6,6 +6,7 @@ import './insta.css'
 import { Label, Select } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi'
 import { Helmet } from 'react-helmet-async';
+import Appliction from '../components/Appliction'; 
 //import  Map from '../components/Map'
 
 function Contact() {
@@ -182,18 +183,7 @@ function Contact() {
 
                       </div>
 
-                      <div class="lg:px-1 mx-auto max-w-screen-xl text-center pt-6 ">
-                        <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-navcolour md:text-3xl lg:text-3xl">
-                        Opening Times
-                        </h4>
-
-                        <p>
-                        Mon-Thurs 8am - 6pm<br/>
-                        Friday    8am - 5pm<br/>
-                        Sartuday  9am - 3pm<br/>
-                        Sunday    9am - 3pm<br/>
-                        </p>
-                      </div>
+                      
                   
                     </div>
                   </div>
@@ -256,6 +246,28 @@ function Contact() {
                     
             </form>
                   </div>
+                  </div>
+                </div>
+
+                <div className='lg:flex'>
+                  <div className='lg:w-2/5 '>
+
+                  <div class="lg:px-1 mx-auto max-w-screen-xl text-center pt-6 ">
+                        <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-navcolour md:text-3xl lg:text-3xl">
+                        Opening Times
+                        </h4>
+
+                        <p>
+                        Mon-Thurs 8am - 6pm<br/>
+                        Friday    8am - 5pm<br/>
+                        Sartuday  9am - 3pm<br/>
+                        Sunday    9am - 3pm<br/>
+                        </p>
+                      </div>
+                  </div>
+
+                  <div className='lg:w-3/5 '>
+                    <Appliction/>
                   </div>
                 </div>
         
