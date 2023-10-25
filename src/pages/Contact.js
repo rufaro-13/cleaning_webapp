@@ -189,6 +189,7 @@ function Contact() {
                   </div>
                 
                   <div class=" lg:w-2/5 sm:w-screen">
+                    <h1 className='font-bold md:text-2xl text-xl text-navcolour'>Enquiry Form</h1>
                   <div class="lg:px-0 px-2 pb-4  pt-5 mt-1 w-fit md:w-1/2 sm:items-start sm:justify-start">
                   <form class="  max-w-max " ref={form} onSubmit={sendEmail}>
                 
